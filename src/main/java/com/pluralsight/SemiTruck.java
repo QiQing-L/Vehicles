@@ -12,11 +12,11 @@ public class SemiTruck extends Vehicle{
     }
 
     public void loadCargo(){
-        System.out.println(getModel()+ "load cargo.");
+        System.out.println(getModel()+ " load cargo.");
     }
 
     public void unloadCargo(){
-        System.out.println(getModel() + "unload cargo. ");
+        System.out.println(getModel() + " unload cargo. ");
     }
 
     @Override

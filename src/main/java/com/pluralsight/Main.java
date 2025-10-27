@@ -14,13 +14,21 @@ public class Main {
 
         //testing SemiTruck
         SemiTruck newTruck = new SemiTruck();
+        newTruck.setModel("Ford Maverick");
         newTruck.setColor("Red");
         newTruck.setFuelCapacity(5);
         newTruck.setNumberOfTrailer(2);
         System.out.println(newTruck);
+        newTruck.loadCargo();
 
 
         System.out.println("=================  2  ====================\n");
+
+
+
+
+
+
 
     }
 }
