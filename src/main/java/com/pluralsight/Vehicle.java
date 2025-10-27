@@ -59,12 +59,12 @@ public class Vehicle {
     @Override
     public String toString() {
         return "Vehicle{" +
-                "model='" + model + '\'' +
-                ", color='" + color + '\'' +
-                ", topSpeed=" + topSpeed +
-                ", fuelCapacity=" + fuelCapacity +
-                ", numberOfPassengers=" + numberOfPassengers +
-                ", cargoCapacity=" + cargoCapacity +
+                "model:'" + model + '\'' +
+                ", color:'" + color + '\'' +
+                ", topSpeed: " + topSpeed +
+                ", fuelCapacity:" + fuelCapacity +
+                ", numberOfPassengers:" + numberOfPassengers +
+                ", cargoCapacity:" + cargoCapacity +
                 '}';
     }
 

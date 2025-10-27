@@ -18,4 +18,11 @@ public class SemiTruck extends Vehicle{
     public void unloadCargo(){
         System.out.println(getModel() + "unload cargo. ");
     }
+
+    @Override
+    public String toString() {
+        return "SemiTruck{" +
+                "numberOfTrailer=" + numberOfTrailer +
+                '}';
+    }
 }
