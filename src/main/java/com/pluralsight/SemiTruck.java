@@ -39,10 +39,10 @@ public class SemiTruck extends Vehicle{
                 "model:'" + getModel() + '\'' +
                 ", color:'" + getColor() + '\'' +
                 ", topSpeed: " + getTopSpeed() +
-                ", fuelCapacity:" + getFuelCapacity() +
-                ", numberOfPassengers:" + getNumberOfPassengers() +
+                ", fuelCapacity: " + getFuelCapacity() +
+                ", numberOfPassengers: " + getNumberOfPassengers() +
                 ", cargoCapacity:" + getCargoCapacity() +
-                "numberOfTrailer=" + numberOfTrailer +
+                "numberOfTrailer: " + numberOfTrailer +
                 '}';
     }
 }
