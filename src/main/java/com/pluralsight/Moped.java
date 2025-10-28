@@ -29,5 +29,16 @@ public class Moped extends Vehicle {
         System.out.println(getModel()+ "ride " );
     }
 
-
+    @Override
+    public String toString() {
+        return "Moped{" +
+                "model:'" + getModel() + '\'' +
+                ", color:'" + getColor() + '\'' +
+                ", topSpeed: " + getTopSpeed() +
+                ", fuelCapacity:" + getFuelCapacity() +
+                ", numberOfPassengers:" + getNumberOfPassengers() +
+                ", cargoCapacity:" + getCargoCapacity() +
+                "maxWeight:" + maxWeight +
+                '}';
+    }
 }

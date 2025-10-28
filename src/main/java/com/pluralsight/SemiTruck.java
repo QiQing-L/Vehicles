@@ -36,6 +36,12 @@ public class SemiTruck extends Vehicle{
     @Override
     public String toString() {
         return "SemiTruck{" +
+                "model:'" + getModel() + '\'' +
+                ", color:'" + getColor() + '\'' +
+                ", topSpeed: " + getTopSpeed() +
+                ", fuelCapacity:" + getFuelCapacity() +
+                ", numberOfPassengers:" + getNumberOfPassengers() +
+                ", cargoCapacity:" + getCargoCapacity() +
                 "numberOfTrailer=" + numberOfTrailer +
                 '}';
     }
