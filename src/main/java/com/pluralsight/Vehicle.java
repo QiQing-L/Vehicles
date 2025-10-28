@@ -8,6 +8,20 @@ public class Vehicle {
     private int numberOfPassengers;
     private int cargoCapacity;
 
+    //constructor
+    public Vehicle(String model, String color, int topSpeed, int fuelCapacity, int numberOfPassengers, int cargoCapacity) {
+        this.model = model;
+        this.color = color;
+        this.topSpeed = topSpeed;
+        this.fuelCapacity = fuelCapacity;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+
+        System.out.println("this is a vehicle");
+
+    }
+
+    //getters & setter
     public String getModel() {
         return model;
     }
@@ -56,20 +70,9 @@ public class Vehicle {
         this.cargoCapacity = cargoCapacity;
     }
 
-    @Override
-    public String toString() {
-        return "Vehicle{" +
-                "model:'" + model + '\'' +
-                ", color:'" + color + '\'' +
-                ", topSpeed: " + topSpeed +
-                ", fuelCapacity:" + fuelCapacity +
-                ", numberOfPassengers:" + numberOfPassengers +
-                ", cargoCapacity:" + cargoCapacity +
-                '}';
-    }
 
 
-
+    //methods
     public void startEngine(){
         System.out.println("Engine started. ");
     }
@@ -85,4 +88,19 @@ public class Vehicle {
     public void brake(){
         System.out.println("brake. ");
     }
+
+
+    // toString
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "model:'" + model + '\'' +
+                ", color:'" + color + '\'' +
+                ", topSpeed: " + topSpeed +
+                ", fuelCapacity:" + fuelCapacity +
+                ", numberOfPassengers:" + numberOfPassengers +
+                ", cargoCapacity:" + cargoCapacity +
+                '}';
+    }
+
 }
